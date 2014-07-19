@@ -1,27 +1,29 @@
 <h1>Listing users</h1>
 
-<table border="1">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Notes</th>
-      <th>DOJ</th>
-    </tr>
-  </thead>
+<%= vgrid_helper %>
 
-  <tbody>
-    <% @users.each do |user| %>
-      <tr>
-        <td><%= user.name %></td>
-        <td><%= user.notes %></td>
-        <td><%= user.doj %></td>
-        <!--<td><%= link_to 'Show', user %></td>-->
-        <!--<td><%= link_to 'Edit', edit_user_path(user) %></td>-->
-        <!--<td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>-->
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<!--<table border="1">-->
+  <!--<thead>-->
+    <!--<tr>-->
+      <!--<th>Name</th>-->
+      <!--<th>Notes</th>-->
+      <!--<th>DOJ</th>-->
+    <!--</tr>-->
+  <!--</thead>-->
+
+  <!--<tbody>-->
+    <!--<% @users.each do |user| %>-->
+      <!--<tr>-->
+        <!--<td><%= user.name %></td>-->
+        <!--<td><%= user.notes %></td>-->
+        <!--<td><%= user.doj %></td>-->
+        <!--&lt;!&ndash;<td><%= link_to 'Show', user %></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td><%= link_to 'Edit', edit_user_path(user) %></td>&ndash;&gt;-->
+        <!--&lt;!&ndash;<td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>&ndash;&gt;-->
+      <!--</tr>-->
+    <!--<% end %>-->
+  <!--</tbody>-->
+<!--</table>-->
 
 <br>
 
