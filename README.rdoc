@@ -1,28 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Supported Features by Vgrid
 
-Things you may want to cover:
+vGrid
+ Row
+  rowId
+  text_box
+  select_box
+  check_box
+  dateTime_field
+  label_tag
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+ Filter_bar
+ Action_bar(ADD, DEL, Update, Export)
+ Header_row
+  columns
+   editable, sortable, searchable
+ DB Column Mapping
+  Table_name & Fields
+ Cacheing & Expire, Exception Handling
